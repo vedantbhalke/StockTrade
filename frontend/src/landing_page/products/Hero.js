@@ -12,7 +12,7 @@ function Hero() {
                     Explore our{" "}
                     <a href="" style={{ textDecoration: "none" }}>
                         investment products{" "}
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <i class="fa fa-long-arrow-right" alt='logo' aria-hidden="true"></i>
                     </a>
                 </p>
             </div>

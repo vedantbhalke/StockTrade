@@ -9,9 +9,9 @@ function Pricing() {
                     <p>
                         We pioneered commission-free investing and transparent pricing in U.S. markets. No hidden fees — just clear, straightforward costs for every investor.
                     </p>
-                    <a href="" style={{ textDecoration: "none" }}>
+                    <a href="#" onClick={(e) => e.preventDefault()} style={{ textDecoration: "none" }}>
                         See Pricing{" "}
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <i class="fa fa-long-arrow-right" alt='logo' aria-hidden="true"></i>
                     </a>
                 </div>
                 <div className="col-2"></div>

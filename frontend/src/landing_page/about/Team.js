@@ -41,8 +41,8 @@ function Team() {
                     </p>
 
                     <p>
-                        Connect on <a href="">Homepage</a> / <a href="">LinkedIn</a> /{" "}
-                        <a href="">Twitter</a>
+                        Connect on <a href="#" onClick={(e) => e.preventDefault()}>Homepage</a> / <a href="#" onClick={(e) => e.preventDefault()}>LinkedIn</a> /{" "}
+                        <a href="#" onClick={(e) => e.preventDefault()}>Twitter</a>
                     </p>
                 </div>
             </div>

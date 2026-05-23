@@ -11,42 +11,42 @@ function Universe() {
                 </p>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaseLogo.png" />
+                    <img src="models/smallcaseLogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         Automated portfolio investing platform
                     </p>
                 </div>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaseLogo.png" />
+                    <img src="models/smallcaseLogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         Advanced market research tools
                     </p>
                 </div>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaseLogo.png" />
+                    <img src="models/smallcaseLogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         Retirement and wealth planning
                     </p>
                 </div>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaseLogo.png" />
+                    <img src="models/smallcaseLogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         ETF and mutual fund investing
                     </p>
                 </div>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaselogo.png" />
+                    <img src="models/smallcaselogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         Financial news and market insights
                     </p>
                 </div>
 
                 <div className="col-4 p-3 mt-5">
-                    <img src="models/smallcaseLogo.png" />
+                    <img src="models/smallcaseLogo.png" alt='logo' />
                     <p className="text-small text-muted">
                         Smart portfolio analytics
                     </p>

@@ -24,7 +24,7 @@ function Hero() {
                 </div>
 
                 <div className="col-12 col-md-4 p-4 d-flex flex-column align-items-center">
-                    <img src="models/zeroimage.png" className="img-fluid mb-3" style={{ width: "100px", height: "82px", objectFit: "contain" }} />
+                    <img src="models/zeroimage.png" alt='logo' className="img-fluid mb-3" style={{ width: "100px", height: "82px", objectFit: "contain" }} />
 
                     <h1 className="fs-3">Options & active trading</h1>
 
@@ -34,7 +34,7 @@ function Hero() {
                 </div>
 
                 <div className="col-12 col-md-4 p-4 d-flex flex-column align-items-center">
-                    <img src="models/twentyimage.png" className="img-fluid mb-3" style={{ width: "80px", height: "80px", objectFit: "contain" }} />
+                    <img src="models/twentyimage.png" alt='logo' className="img-fluid mb-3" style={{ width: "80px", height: "80px", objectFit: "contain" }} />
 
                     <h1 className="fs-3">Retirement & mutual funds</h1>
 

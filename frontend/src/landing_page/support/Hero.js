@@ -5,7 +5,7 @@ function Hero() {
         <section className="container-fluid" id="supportHero">
             <div className="p-5 " id="supportWrapper">
                 <h4>Support Portal</h4>
-                <a href="">Track Tickets</a>
+                <a href="#" onClick={(e) => e.preventDefault()}>Track Tickets</a>
             </div>
             <div className="row p-2 m-3 justify-content-between">
                 <div className="col-6 p-3">
@@ -16,17 +16,17 @@ function Hero() {
                     <br />
                     <div className="row">
                         <div className="col-4">
-                            <a href="">Track account opening</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Track account opening</a>
                         </div>
                         <div className="col-4">
-                            <a href="">Track segment activation</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Track segment activation</a>
                         </div>
                         <div className="col-4">
-                            <a href="">Intraday margins</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Intraday margins</a>
                         </div>
 
                         <div className="col-4 mt-2">
-                            <a href="">Kite user manual</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Kite user manual</a>
                         </div>
                     </div>
                 </div>
@@ -34,10 +34,10 @@ function Hero() {
                     <h1 className="fs-3" id="i">Featured</h1>
                     <ol>
                         <li>
-                            <a href="">Current Takeovers and Delisting - January 2024</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Current Takeovers and Delisting - January 2024</a>
                         </li>
                         <li>
-                            <a href="">Latest Intraday leverages - MIS & CO</a>
+                            <a href="#" onClick={(e) => e.preventDefault()}>Latest Intraday leverages - MIS & CO</a>
                         </li>
                     </ol>
                 </div>

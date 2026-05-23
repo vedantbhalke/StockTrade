@@ -6,71 +6,71 @@ function Footer() {
             <div className="container border-top mt-5">
                 <div className="row mt-5">
                     <div className="col">
-                        <img src="models/logo.png" style={{ width: "40%" }} />
+                        <img src="models/logo.png" alt='logo' style={{ width: "40%" }} />
                         <p>
                             © 1971 - 2026, Not Charles Schwab Brokerage LLC. All rights reserved.
                         </p>
                     </div>
                     <div className="col">
                         <p>Accounts</p>
-                        <a href="">Brokerage Accounts</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Brokerage Accounts</a>
                         <br />
-                        <a href="">Retirement Accounts (IRAs)</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Retirement Accounts (IRAs)</a>
                         <br />
-                        <a href="">401(k) Rollovers</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>401(k) Rollovers</a>
                         <br />
-                        <a href="">Banking & Checking Accounts</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Banking & Checking Accounts</a>
                         <br />
-                        <a href="">Small Business Retirement Plans</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Small Business Retirement Plans</a>
                         <br />
-                        <a href="">Zerodha.tech</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Zerodha.tech</a>
                         <br />
-                        <a href="">Press & media</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Press & media</a>
                         <br />
-                        <a href="">More Account Types</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>More Account Types</a>
                         <br />
                     </div>
                     <div className="col">
                         <p>Investment Products</p>
-                        <a href="">Stocks</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Stocks</a>
                         <br />
-                        <a href="">ETFs (Exchange Traded Funds)</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>ETFs (Exchange Traded Funds)</a>
                         <br />
-                        <a href="">Mutual Funds</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Mutual Funds</a>
                         <br />
-                        <a href="">Bonds & Fixed Income</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Bonds & Fixed Income</a>
                         <br />
-                        <a href="">Options Trading</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Options Trading</a>
                         <br />
                     </div>
                     <div className="col">
                         <p>Trading & Platforms</p>
-                        <a href="">Trading Platforms</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Trading Platforms</a>
                         <br />
-                        <a href="">Mobile Trading Apps</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Mobile Trading Apps</a>
                         <br />
-                        <a href="">Options Trading</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Options Trading</a>
                         <br />
-                        <a href="">Futures Trading</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Futures Trading</a>
                         <br />
-                        <a href="">Execution Quality</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Execution Quality</a>
                         <br />
-                        <a href="">Research & Tools</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Research & Tools</a>
                         <br />
                     </div>
                     <div className="col">
                         <p>About</p>
-                        <a href="">Why Us</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Why Us</a>
                         <br />
-                        <a href="">Compare Platforms</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Compare Platforms</a>
                         <br />
-                        <a href="">Pricing</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Pricing</a>
                         <br />
-                        <a href="">Careers</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Careers</a>
                         <br />
-                        <a href="">News & Media</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>News & Media</a>
                         <br />
-                        <a href="">Corporate Responsibility</a>
+                        <a href="#" onClick={(e) => e.preventDefault()}>Corporate Responsibility</a>
                         <br />
                     </div>
                 </div>
