@@ -7,14 +7,26 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const { OrdersModel } = require("./model/OrdersModel.js");
 const stockRoutes = require('./routes/stock.js');
-const PORT = process.env.PORT || 3002;
+
 const uri = process.env.MONGO_URL;
-const serverless = require("serverless-http");
 
 const app = express();
-app.use(cors({ origin: "*" }));
+
+app.use(cors({
+    origin: [
+        '*'
+    ],
+    credentials: true
+}));
+
 app.use(bodyParser.json());
 app.use('/api/stocks', stockRoutes);
+
+// MongoDB connection
+mongoose.connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+});
 
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
@@ -27,14 +39,14 @@ app.get('/allPositions', async (req, res) => {
 });
 
 app.post('/newOrder', async (req, res) => {
-    let newOrder = await OrdersModel({
+    let newOrder = new OrdersModel({
         name: req.body.name,
         qty: req.body.qty,
         price: req.body.price,
         mode: req.body.mode,
     });
-    newOrder.save();
+    await newOrder.save();
     res.send("Order saved");
 });
 
-module.exports = serverless(app);
+module.exports = app;
