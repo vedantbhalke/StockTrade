@@ -15,6 +15,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/api/stocks', stockRoutes);
 
+app.get("/", (req, res) => {
+    res.send("StockTrade backend is running");
+});
+
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
     res.json(allHoldings);
