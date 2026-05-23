@@ -40,14 +40,14 @@ const WatchList = () => {
   return (
     <div className="watchlist-container">
 
-      {/* LIST */}
+
       <ul className="list">
         {watchlist.map((stock, index) => (
           <WatchListItem stock={stock} key={index} />
         ))}
       </ul>
 
-      {/* ✅ CHART BELOW LIST */}
+
       <div style={{ marginTop: "20px" }}>
         <DoughnutChart data={chartData} />
       </div>
