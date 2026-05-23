@@ -23,10 +23,7 @@ app.use(bodyParser.json());
 app.use('/api/stocks', stockRoutes);
 
 // MongoDB connection
-mongoose.connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+mongoose.connect(uri);
 
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
