@@ -52,7 +52,7 @@ export const GeneralContextProvider = (props) => {
         fetchStocks();
         const interval = setInterval(fetchStocks, 30000);
         return () => clearInterval(interval);
-    }, [API_URL]);
+    }, [API_URL, symbols]);
 
     const handleOpenBuyWindow = (uid) => {
         setIsBuyWindowOpen(true);

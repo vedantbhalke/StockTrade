@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Funds from "./Funds";
 import Holdings from "./Holdings";
-import StockPrice from './StockPrice';
 
 import Orders from "./Orders";
 import Positions from "./Positions";
