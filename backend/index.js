@@ -36,8 +36,4 @@ app.post('/newOrder', async (req, res) => {
     res.send("Order saved");
 });
 
-app.listen(PORT, () => {
-    console.log("app started");
-    mongoose.connect(uri);
-    console.log("connected to MongoDB");
-});
+module.exports = app;
