@@ -14,19 +14,19 @@ export const GeneralContextProvider = (props) => {
 
     const API_URL = process.env.REACT_APP_API_URL;
 
-    const symbols = [
-        "AAPL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "TSLA",
-        "NVDA",
-        "META",
-        "NFLX",
-        "AMD",
-    ];
-
     useEffect(() => {
+        const symbols = [
+            "AAPL",
+            "MSFT",
+            "GOOGL",
+            "AMZN",
+            "TSLA",
+            "NVDA",
+            "META",
+            "NFLX",
+            "AMD",
+        ];
+
         const fetchStocks = async () => {
             try {
                 const promises = symbols.map((symbol) =>
@@ -52,7 +52,7 @@ export const GeneralContextProvider = (props) => {
         fetchStocks();
         const interval = setInterval(fetchStocks, 30000);
         return () => clearInterval(interval);
-    }, [API_URL, symbols]);
+    }, [API_URL]);
 
     const handleOpenBuyWindow = (uid) => {
         setIsBuyWindowOpen(true);
