@@ -9,6 +9,7 @@ const { OrdersModel } = require("./model/OrdersModel.js");
 const stockRoutes = require('./routes/stock.js');
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
+const serverless = require("serverless-http");
 
 const app = express();
 app.use(cors({ origin: "*" }));
