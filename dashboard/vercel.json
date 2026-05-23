@@ -1,0 +1,18 @@
+{
+    "experimentalServices": {
+        "frontend": {
+            "root": "frontend",
+            "routePrefix": "/",
+            "framework": "create-react-app"
+        },
+        "dashboard": {
+            "root": "dashboard",
+            "routePrefix": "/dashboard",
+            "framework": "create-react-app"
+        },
+        "backend": {
+            "root": "backend",
+            "routePrefix": "/_/backend"
+        }
+    }
+}
