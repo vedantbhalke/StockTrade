@@ -14,7 +14,10 @@ const app = express();
 
 app.use(cors({
     origin: [
-        '*'
+        'https://stock-trade-pi.vercel.app',
+        'https://stock-trade-o8ow.vercel.app',
+        'http://localhost:3000',
+        'http://localhost:3001'
     ],
     credentials: true
 }));
