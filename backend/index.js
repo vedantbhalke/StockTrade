@@ -11,13 +11,9 @@ const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(bodyParser.json());
 app.use('/api/stocks', stockRoutes);
-
-app.get("/", (req, res) => {
-    res.send("StockTrade backend is running");
-});
 
 app.get('/allHoldings', async (req, res) => {
     let allHoldings = await HoldingsModel.find({});
@@ -40,4 +36,4 @@ app.post('/newOrder', async (req, res) => {
     res.send("Order saved");
 });
 
-module.exports = app;
+module.exports = serverless(app);
